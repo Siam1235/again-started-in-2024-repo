@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamar Dokan</title>
+    <style>
+        form > label{
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        fieldset > label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        fieldset{
+            margin-bottom: 10px;
+        }
+
+        .reset{
+            background-color: red;
+            color: antiquewhite;
+            padding: 6px 40px;
+            border: 1px solid red;
+            border-radius: 5px;
+        }
+
+        .submit{
+
+            background-color: yellow;
+            color: black;
+            padding: 6px 40px;
+            border: 1px solid yellow;
+            border-radius: 5px;
+
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Welcome to Mamar Dokan!</h1>
+            <p>Please fillup the form below.</p>
+        </section>
+        <section>
+            <form>
+                <label for="name">
+                    Your Name: <input type="text" placeholder="Your Name" id="name"> 
+                </label>
+                <label for="email">
+                    Your Email: <input type="email" placeholder="Your Email" id="email"> 
+                </label>
+                <label for="telephone">
+                    Your Number: <input type="tel" placeholder="Your Number" name="" id="telephone">
+                </label>
+
+                <fieldset>
+                    <legend>Pick Up the biri brands</legend>
+                    <label for="benson">
+                         <input type="checkbox" name="benson" id="benson"> Benson
+                    </label>
+                    <label for="Navy">
+                         <input type="checkbox" name="Navy" id="Navy"> Navy
+                    </label>
+                    <label for="Star">
+                         <input type="checkbox" name="Star" id="Star"> Star
+                    </label>
+                    <label for="Royal">
+                         <input type="checkbox" name="Royal" id="Royal"> Royal
+                    </label>
+                    <label for="Camel">
+                         <input type="checkbox" name="Camel" id="Camel"> Camel
+                    </label>
+                    <label for="Derby">
+                         <input type="checkbox" name="Derby" id="Derby"> Derby
+                    </label>
+                </fieldset>
+                <input class="reset" type="reset">
+                <input class="submit" type="submit" value="Order Now">
+            </form>
+            
+        </section>
+    </main>
+</body>
+</html>
